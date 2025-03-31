@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>考试题目</title>
+</head>
+<body>
+<form action="ExamServlet" method="post">
+    <p>1. Windows操作系统是那个公司的产品？（10分）</p>
+    <label><input type="radio" name="q1" value="Microsoft公司"> Microsoft公司</label>
+    <label><input type="radio" name="q1" value="Apple公司"> Apple公司</label>
+    <label><input type="radio" name="q1" value="IBM公司"> IBM公司</label>
+    <label><input type="radio" name="q1" value="Oracle公司"> Oracle公司</label>
+
+    <p>2. 下列哪些是面向对象的程序设计语言？（10分，错选多选不得分，少选得5分）</p>
+    <label><input type="checkbox" name="q2" value="C"> C</label>
+    <label><input type="checkbox" name="q2" value="C++"> C++</label>
+    <label><input type="checkbox" name="q2" value="Java"> Java</label>
+    <label><input type="checkbox" name="q2" value="Python"> Python</label>
+
+    <p>3. ______是中国的首都。（10分）</p>
+    <input type="text" name="q3">
+
+    <br><br>
+    <input type="submit" value="交卷">
+    <input type="reset" value="重答">
+</form>
+</body>
+</html>
